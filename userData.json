@@ -1,0 +1,30 @@
+[
+    {
+        "Id": 1,
+        "gender": "female",
+        "contact": "0157895874",
+        "address": "south city",
+        "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIV99IJOGUBMQBy9kccOQsAyq36yzt0BRYUw&usqp=CAU"
+    },
+    {
+        "Id": 2,
+        "gender": "male",
+        "contact": "08575454574",
+        "address": "canada city",
+        "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIV99IJOGUBMQBy9kccOQsAyq36yzt0BRYUw&usqp=CAU"
+    },
+    {
+        "Id": 3,
+        "gender": "male",
+        "contact": "01564642624",
+        "address": "new York city",
+        "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIV99IJOGUBMQBy9kccOQsAyq36yzt0BRYUw&usqp=CAU"
+    },
+    {
+        "Id": 4,
+        "gender": "female",
+        "contact": "01375495874",
+        "address": "carlifonia city",
+        "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgKbNWXKfUUwH8nPFJY1ehK1B0ARzJulbJ04xkc2JT_C1lKJFqx6MRB2JlZAxgmnVFgiA&usqp=CAU"
+    }
+]
