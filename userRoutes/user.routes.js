@@ -16,4 +16,12 @@ router
 router
     .route('/save')
     .post(userController.saveAUser)
+
+router
+    .route('/update')
+    .patch(userController.updateAUser)
+
+router
+    .route('/delete')
+    .delete(userController.deleteAUser)
 module.exports = router;
