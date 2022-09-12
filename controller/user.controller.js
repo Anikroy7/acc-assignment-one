@@ -27,6 +27,17 @@ module.exports.updateAUser = (req, res) => {
     res.send(users)
 }
 
+
+module.exports.bulkUpdateUsers = (req, res) => {
+    const updateInfos = req.body;
+    for (const updateInfo of updateInfos) {
+        const foundedUser = users.find(user => user.Id == updateInfo.Id);
+        foundedUser.contact = updateInfo.contact;
+    }
+    res.send(users)
+}
+
+
 module.exports.deleteAUser = (req, res) => {
     const { id } = req.body;
     const filteredUsers = users.filter(user => user.Id !== id);

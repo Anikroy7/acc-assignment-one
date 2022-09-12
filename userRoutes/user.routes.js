@@ -20,6 +20,9 @@ router
 router
     .route('/update')
     .patch(userController.updateAUser)
+router
+    .route('/bulk-update')
+    .patch(userController.bulkUpdateUsers)
 
 router
     .route('/delete')
