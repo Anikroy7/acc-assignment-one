@@ -26,5 +26,6 @@ router
 
 router
     .route('/delete')
-    .delete(userController.deleteAUser)
+    .delete(userController.deleteAUser);
+
 module.exports = router;
